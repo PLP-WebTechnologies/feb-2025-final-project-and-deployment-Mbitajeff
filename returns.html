@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Returns Policy - TechKenya</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .returns-container {
+            padding: 2rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .returns-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .returns-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 3rem;
+        }
+
+        .returns-info {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .returns-section {
+            margin-bottom: 2rem;
+        }
+
+        .returns-section h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .returns-section h3 i {
+            color: var(--secondary-color);
+        }
+
+        .returns-section p {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .returns-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .return-step {
+            background: var(--light-gray);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .return-step i {
+            font-size: 2rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .return-step h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .returns-sidebar {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            height: fit-content;
+        }
+
+        .returns-sidebar h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .returns-sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .returns-sidebar li {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .returns-sidebar li:before {
+            content: "•";
+            color: var(--secondary-color);
+            position: absolute;
+            left: 0;
+        }
+
+        .returns-sidebar .contact-info {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--light-gray);
+        }
+
+        .returns-sidebar .contact-info p {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .returns-sidebar .contact-info i {
+            color: var(--secondary-color);
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+        }
+
+        .warning-box i {
+            color: #856404;
+            margin-right: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .returns-content {
+                grid-template-columns: 1fr;
+            }
+
+            .returns-sidebar {
+                order: -1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>TechKenya</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="categories.html">Categories</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-icons">
+                <a href="search.html"><i class="fas fa-search"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                <a href="account.html"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="returns-container">
+        <div class="returns-header">
+            <h2>Returns Policy</h2>
+            <p>Easy and hassle-free returns process</p>
+        </div>
+
+        <div class="returns-content">
+            <div class="returns-info">
+                <div class="returns-section">
+                    <h3><i class="fas fa-undo"></i> Return Policy</h3>
+                    <p>We want you to be completely satisfied with your purchase. If you're not happy with your order, you can return it within 14 days of delivery for a full refund or exchange.</p>
+                    
+                    <div class="warning-box">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        Please note that certain items are not eligible for returns, including:
+                        <ul>
+                            <li>Software and digital products</li>
+                            <li>Personalized items</li>
+                            <li>Items marked as "Final Sale"</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="returns-section">
+                    <h3><i class="fas fa-list-ol"></i> Return Process</h3>
+                    <p>Follow these simple steps to return your item:</p>
+                    
+                    <div class="returns-steps">
+                        <div class="return-step">
+                            <i class="fas fa-box"></i>
+                            <h4>1. Package Item</h4>
+                            <p>Include all original packaging and accessories</p>
+                        </div>
+                        <div class="return-step">
+                            <i class="fas fa-file-alt"></i>
+                            <h4>2. Fill Form</h4>
+                            <p>Complete the return form included in your package</p>
+                        </div>
+                        <div class="return-step">
+                            <i class="fas fa-truck"></i>
+                            <h4>3. Ship Back</h4>
+                            <p>Use the provided return shipping label</p>
+                        </div>
+                        <div class="return-step">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>4. Get Refund</h4>
+                            <p>Receive refund within 5-7 business days</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="returns-section">
+                    <h3><i class="fas fa-info-circle"></i> Return Conditions</h3>
+                    <p>To be eligible for a return, your item must be:</p>
+                    <ul>
+                        <li>Unused and in the same condition as received</li>
+                        <li>In the original packaging with all accessories</li>
+                        <li>Accompanied by the original receipt or proof of purchase</li>
+                        <li>Returned within 14 days of delivery</li>
+                    </ul>
+                </div>
+
+                <div class="returns-section">
+                    <h3><i class="fas fa-money-bill-wave"></i> Refund Process</h3>
+                    <p>Once we receive your return:</p>
+                    <ul>
+                        <li>We will inspect the item within 2-3 business days</li>
+                        <li>If approved, your refund will be processed</li>
+                        <li>Refunds will be issued to the original payment method</li>
+                        <li>You will receive an email confirmation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="returns-sidebar">
+                <h3>Important Notes</h3>
+                <ul>
+                    <li>Return shipping costs are the customer's responsibility</li>
+                    <li>Refunds exclude original shipping charges</li>
+                    <li>Damaged items must be reported within 48 hours</li>
+                    <li>Custom items cannot be returned</li>
+                    <li>Sale items may have different return policies</li>
+                </ul>
+
+                <div class="contact-info">
+                    <h3>Need Help?</h3>
+                    <p><i class="fas fa-phone"></i> +254 700 000000</p>
+                    <p><i class="fas fa-envelope"></i> returns@techkenya.co.ke</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 6:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About TechKenya</h3>
+                <p>Your trusted electronics store in Kenya, offering quality products and excellent service.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="shipping.html">Shipping Info</a></li>
+                    <li><a href="returns.html">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@techkenya.co.ke</p>
+                <p>Phone: +254 700 000000</p>
+                <p>Address: Nairobi, Kenya</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechKenya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

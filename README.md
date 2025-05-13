@@ -1,25 +1,42 @@
-# Final Project and Deployment
+# Kenyan Electronics E-commerce Website
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+## Project Overview
+A modern e-commerce platform specializing in electronics and gadgets in Kenya. The website provides a seamless shopping experience for customers looking to purchase electronics online.
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+## Features
+- Responsive design for all devices
+- Product catalog with categories
+- Shopping cart functionality
+- User authentication
+- Product search and filtering
+- Secure checkout process
+- Kenyan currency (KES) support
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Design
+- Modern UI/UX principles
 
-## Tasks
+## Pages
+1. Home Page
+2. Product Catalog
+3. Product Details
+4. Shopping Cart
+5. Checkout
+6. User Account
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
+## Getting Started
+1. Clone the repository
+2. Open `index.html` in your browser
+3. Start shopping!
 
-Good luck and happy coding! 🚀💻
+## Deployment
+This project will be deployed on [Netlify/Vercel/GitHub Pages] (link to be added)
+
+## Author
+[Your Name]
+
+## License
+MIT License
